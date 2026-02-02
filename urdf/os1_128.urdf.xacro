@@ -6,12 +6,12 @@
   
   <!-- Base Footprint -->
   <link name="base_link" />
-  <gazebo>
+  <!-- <gazebo>
     <static>True</static>
     <plugin name="gz_world_tf_publisher" filename="libarvc_gazebo_ros_world_tf.so">
       <target_frame>os1_sensor</target_frame>
     </plugin>
-  </gazebo>
+  </gazebo> -->
 
   <xacro:OS1-128 
     parent       = "base_link"  
